@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hun">
+<head>
+<title>Button</title>
+<meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Máté Zalán">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/button.css">
+  <script src="https://kit.fontawesome.com/20a7f33c7b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<a>
+		<button onclick="doSomething()">Button</button>
+		<p id="test">Welcome</p>
+		<script>
+			function doSomething(){
+				document.getElementById("test").innerHTML = "Goodebye";
+			}
+		</script>
+	</a>
+	<a>
+		<button onclick="doSomething1()"><i class="fa-solid fa-trash"></i> Button</button>
+		<p id="test2">Welcome</p>
+		<script>
+			function doSomething1(){
+				document.getElementById("test2").innerHTML = "Goodebye";
+			}
+		</script>
+	</a>
+	<a>
+		<button disabled style="background-color: #DADADA;border-radius:20px">Button</button>
+		<p id="test2">Welcome</p>
+		<script>
+			function doSomething1(){
+				document.getElementById("test2").innerHTML = "Goodebye";
+			}
+		</script>
+	</a>
+	<a>
+		<button disabled style= "background-color: #DADADA"><i class="fa-solid fa-trash"></i>Button</button>
+		<p id="test2">Welcome</p>
+		<script>
+			function doSomething1(){
+				document.getElementById("test2").innerHTML = "Goodebye";
+			}
+		</script>
+	</a>
+	
+	
+</body>
+
+</html>
